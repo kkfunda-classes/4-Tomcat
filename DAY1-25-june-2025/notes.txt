@@ -208,7 +208,8 @@ step 8: goto the bin directory.
      
        cd /opt/apache-tomcat-9.0.104/bin
 
-step 9: chmod u+x *.sh
+step 9: chmod u+x *.sh  ---inside all read only mode to use by default shell script we need apply chomod u+x command then only we can
+execute below commands
 
 
 IQ] How to start/stop the tomcat server?
